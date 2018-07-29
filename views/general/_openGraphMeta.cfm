@@ -42,6 +42,8 @@
 	</cfif>
 	<cfif Len( local.twitterCreatorUsername )>
 		<meta name="twitter:creator" content="@#local.twitterCreatorUsername#">
+	<cfelseif( Len( local.siteTwitterUsername ) ) >
+		<meta name="twitter:creator" content="@#local.siteTwitterUsername#">
 	</cfif>
 	<cfif Len( local.siteTwitterUsername )>
 		<meta name="twitter:site" content="@#local.siteTwitterUsername#">
