@@ -3,8 +3,8 @@
 	<tab id="meta" sortorder="20">
 		<fieldset id="twitter">
 			<field binding="page.meta_tag_image"           />
-			<field binding="page.twitter_card_type"        />
-			<field binding="page.twitter_creator_username" />
+			<field binding="page.twitter_card_type"        control="select" values="summary,photo,video" labels="Summary,Photo,Video" default="summary" />
+			<field binding="page.twitter_creator_username" control="textInput" />
 		</fieldset>
 	</tab>
 </form>
