@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<tab id="meta" sortorder="20">
+		<fieldset id="twitter">
+			<field binding="page.meta_tag_image"           />
+			<field binding="page.twitter_card_type"        />
+			<field binding="page.twitter_creator_username" />
+		</fieldset>
+	</tab>
+</form>
