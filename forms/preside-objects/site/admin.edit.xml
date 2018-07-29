@@ -2,7 +2,7 @@
 <form>
 	<tab id="seo" sortorder="20" title="preside-objects.site:seo.tab.title">
 		<fieldset id="seo" sortorder="10">
-			<field binding="site.site_twitter_username" sortorder="50" />
+			<field binding="site.site_twitter_username" sortorder="50" control="textInput" />
 		</fieldset>
 	</tab>
 </form>
